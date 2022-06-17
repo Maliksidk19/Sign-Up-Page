@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    margin: 0;
+    background-color: gainsboro;
+    width: 100%;
+    height: 100vh;
+}
+
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.box {
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 200px;
+    margin-left: 650px;
+    border-radius: 10px;
+    gap: 10px;
+    padding: 40px;
+    position: fixed;
+}
+
+.box #icon {
+    font-size: 60px;
+    color: #0d6efd;
+}
+
+.box h1 {
+    font-size: 40px;
+    margin-top: 0;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    height: 5vh;
+    color: rgb(101, 100, 100);
+    background-color: rgb(201, 201, 201);
+    border-radius: 20px;
+    padding: 20px;
+    border: none;
+    font-size: 15px;
+}
+
+.box .terms {
+    color: #0d6efd;
+}
+
+button {
+    width: 90%;
+    height: 6vh;
+    font-size: larger;
+    font-weight: 700;
+    border-radius: 20px;
+    padding: 20px;
+    color: white;
+    background-color: #0d6efd;
+    border: none;
+    box-shadow: 1px 1px 3px #0d6efd;
+}
+
+button:hover {
+    background-color: #105fd6;
+    cursor: pointer;
+}
+
+.box .register {
+    color: #0d6efd;
+}
